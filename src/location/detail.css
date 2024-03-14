@@ -1,0 +1,144 @@
+.detail-container {
+  width: 100vw;
+  height: 100vh;
+  /* display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: flex-start; */
+  background-image: url('../../public/assets/details-BG.jpg');
+  background-size: cover;
+}
+
+.header-details {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 5vw;
+  font-size: 2vw;
+  text-align: right;
+  color: white;
+  font-weight: bold;
+}
+
+.margin-bottom-s {
+  margin-bottom: 10px;
+}
+
+.main-container {
+  width: 100%;
+  height: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.footer-container {
+  width: 100%;
+  height: 45%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  color: rgba(255,255,255,1);
+  font-weight: bold;
+}
+
+.footer-tab-container{
+  width: 50%;
+  display: flex;
+  height: 30%;
+}
+
+.footer-tab-container > div {
+  width: 33.33%;
+  text-align: center;
+  padding: 77px 25px 0 25px;
+  border-bottom: 5px solid #9BA4E6;
+  color: rgba(255,255,255,0.5);
+  cursor: not-allowed;
+}
+
+.footer-tab-container > div:first-child {
+  border-bottom: 5px solid #F2C64C;
+  color: rgba(255,255,255,0.8);
+  cursor: pointer;
+}
+
+.footer-tab-container > div:last-child {
+  border-bottom: 5px solid #67D1E4;
+}
+
+.footer-body {
+  width: 100%;
+  height: 70%;
+  background-color: #ffffffc7;
+  display: flex;
+}
+
+.footer-body > div {
+  flex-basis: calc(65%/6);
+  padding: 6vh 2vw;
+  display: flex;
+  align-content: space-between;
+  flex-wrap: wrap;
+  justify-content: center;
+  border: 1px solid darkgrey;
+}
+
+.footer-body > div:first-child {
+  flex-basis: 35%;
+  padding: 6vh 2vw;
+}
+
+.first-day {
+  display: flex;
+}
+
+.first-day > div {    
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: start;
+  align-content: start;
+  width: 50%;
+}
+
+.first-day > div:first-child > div:last-child {
+  border-radius: 20px;
+  padding: 0px 10px;
+  background: #A59184;
+}
+
+.font-xxl {
+  font-size: 5vw;
+  font-weight: normal;
+}
+
+.font-xl {
+  font-size: 2vw;
+  font-weight: normal;
+}
+
+.other-days > div {
+  font-size: 1.2vw;
+  text-align: center;
+  width: 100%;
+}
+
+.other-days > div:first-child {
+  border-radius: 20px;
+  background: #A59184;
+}
+
+.loading-cont {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 3vw;
+  font-weight: 500;
+}
