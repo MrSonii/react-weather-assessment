@@ -100,8 +100,8 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: start;
-  align-content: start;
+  align-items: flex-start;
+  align-content: flex-start;
   width: 50%;
 }
 

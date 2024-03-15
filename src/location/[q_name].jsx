@@ -36,8 +36,6 @@ function Details() {
       alert(err.message);
     });  
   };
-
-  console.log(weatherDetails)
   return (
     <div className='detail-container'>
       {!!weatherDetails && !loading ? <>
